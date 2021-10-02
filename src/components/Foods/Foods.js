@@ -32,7 +32,7 @@ const Foods = () => {
 
       <div className='food-container container'>
         
-        {meals.map((meal) => (
+        {meals?.map((meal) => (
           <Food meal={meal} key={meal.idMeal}></Food>
         ))}
       </div>
